@@ -5,10 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: pages
+  path: src/pages
   label: Landing Pages
   create: all
-  match: "**/*"
+  match: "*.md"
   templates:
   - post
 - type: heading
