@@ -15,6 +15,15 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - post
+  - tokens-colors
+  config:
+    min: 
+    max: 
 pages:
 - src/pages/hallo.md
 - src/posts/new-post.md
